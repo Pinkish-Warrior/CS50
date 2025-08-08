@@ -1,0 +1,27 @@
+# ==========================
+# CS50 Harvard Workspace .gitignore
+# ==========================
+
+# --- C language build files ---
+*.o
+*.out
+*.exe
+a.out
+
+# Debug and log files
+*.log
+*.stackdump
+
+# --- Python cache files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- OS-generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor / IDE settings ---
+.vscode/
+.idea/
