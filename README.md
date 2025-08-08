@@ -69,5 +69,3 @@ Instructor: David J. Malan and the CS50 team
 
 ---
 
-If you’d like, I can **add GitHub badges** (languages, repo size, last commit, etc.) so the README looks even more professional when people visit your repository.
-Do you want me to enhance it that way?
