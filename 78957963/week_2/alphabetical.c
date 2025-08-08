@@ -2,12 +2,19 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(void)
+// int main(void)
+int main(int argc, string argv[])
 {
     // get user input
-    string user_input = get_string("Input: \n");
+    if (argc != 2)
+    {
+        printf("Please provide a word.\n");
+        return 1;
+    }
+    // string user_input = get_string("Input: \n");
+    string user_input = argv[1];
 
-    // get lenght once
+    // get length
     int len = strlen(user_input);
 
     // interate through
@@ -22,7 +29,7 @@ int main(void)
         }
     }
 
-    //Print out YES or NO
+    // Print out YES or NO
     printf("YES\n");
     return 0;
 }
