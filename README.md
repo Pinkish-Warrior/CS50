@@ -1,58 +1,33 @@
-Here’s a polished **README.md** you can use for your CS50 repository:
-
----
-
 # 📚 CS50 – Harvard University
 
-**My learning journey through CS50’s Introduction to Computer Science**
+**Kick-off: My journey through CS50’s Introduction to Computer Science**
 
-This repository contains my notes, solutions, and projects developed as part of the **CS50: Introduction to Computer Science** course by Harvard University. It documents my progress, showcases problem-solving approaches, and reflects my growing skills in programming and computer science fundamentals.
+This repository is the starting point of my **CS50** learning adventure. I’m currently in **Week 2** of the course, and this space will grow as I work through problem sets, labs, and eventually my final project.
 
 ---
 
-## 📂 Repository Structure
+## 📅 Current Status
+
+* ✅ Week 0: Scratch – **Completed**
+* ✅ Week 1: C – **Completed**
+* 🔄 Week 2: Arrays in C – **In progress**
+
+---
+
+## 📂 Planned Structure
 
 ```
-.
-├── psets/          # Problem set solutions (C, Python, SQL, HTML/CSS/JS)
-├── labs/           # Completed labs and practice tasks
-├── notes/          # Study notes and summaries from lectures
-├── final_project/  # CS50 final project
-└── README.md       # You are here
+psets/          # Problem set solutions
+labs/           # Completed labs
+notes/          # Lecture notes and study materials
+final_project/  # Will be added later
 ```
 
 ---
 
-## 🚀 Topics Covered
+## 🎯 My Goal
 
-Throughout the course, I explore:
-
-* **C programming**: syntax, memory, pointers, and data structures
-* **Algorithms**: searching, sorting, complexity analysis
-* **Python**: scripting, data handling, automation
-* **SQL**: databases, queries, and relationships
-* **HTML, CSS, JavaScript**: basics of web development
-* **Cybersecurity fundamentals**
-* **Final Project**: bringing everything together
-
----
-
-## 🛠 Technologies Used
-
-* **C** for low-level programming
-* **Python** for high-level problem solving
-* **SQL** for database management
-* **HTML/CSS/JavaScript** for front-end development
-* **Git & GitHub** for version control
-
----
-
-## 🎯 Goals of This Repository
-
-* Track my learning progress
-* Serve as a reference for future projects
-* Share knowledge and solutions with other learners
-* Build a portfolio of computer science fundamentals
+To build a solid foundation in computer science, strengthen my problem-solving skills, and create a visible learning record from start to finish.
 
 ---
 
@@ -65,7 +40,8 @@ Instructor: David J. Malan and the CS50 team
 
 **Tagline suggestion:**
 
-> *"From binary to full-stack – documenting my CS50 journey"*
+> *"Every big journey starts with Week 1 – here’s mine."*
 
 ---
+
 
