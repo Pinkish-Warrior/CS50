@@ -1,4 +1,5 @@
 #include <cs50.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -11,8 +12,18 @@ int main(int argc, string argv[])
         printf("Please provide a word.\n");
         return 1;
     }
+
     // string user_input = get_string("Input: \n");
     string user_input = argv[1];
+
+    for (int i = 0; i < strlen(user_input); i++)
+    {
+        if (!isalpha(user_input[i]))
+        {
+            printf("This isn't a letter, please enter a letter.\n");
+            return 2;
+        }
+    }
 
     // get length
     int len = strlen(user_input);
@@ -20,7 +31,6 @@ int main(int argc, string argv[])
     // interate through
     for (int i = 1; i < len; i++)
     {
-        printf("%c \n", user_input[i]);
         // check its order if alphabetical
         if (user_input[i] < user_input[i - 1])
         {
