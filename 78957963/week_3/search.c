@@ -40,6 +40,6 @@ int main(void)
             printf("You have no attempts left, goodbye \n");
         }
     }
-    // sucssefull
+    // successful
     return 0;
 }
