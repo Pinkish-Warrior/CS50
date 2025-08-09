@@ -29,7 +29,7 @@ int main(void)
         }
         else
 
-        count = count++;
+        count =+
         {
         printf("keep trying!!\n");
             {
