@@ -21,7 +21,6 @@ int main(void)
                 break;
             }
         }
-        count = 0;
 
         if (found)
         {
