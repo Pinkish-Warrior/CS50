@@ -16,7 +16,7 @@ int main(void)
         {
             if (numbers[i] == n)
             {
-                printf("match\n");
+                printf("Well done, it is a match!!!\n");
                 found = true;
                 break;
             }
