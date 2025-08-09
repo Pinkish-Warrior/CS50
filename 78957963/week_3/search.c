@@ -28,12 +28,10 @@ int main(void)
             return 0;
         }
         else
-            count += printf("keep trying!!\n");
+
         {
             found = false;
-            {
-                printf("Keep trying");
-            }
+            count += printf("keep trying!!\n");
 
             if (count == 3)
                 break;
