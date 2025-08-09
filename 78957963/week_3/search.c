@@ -10,7 +10,7 @@ int main(void)
     bool found = false;
     int max_attempts = 3;
 
-    for(int count =1; count <= max_attempts; count++)
+    for (int count = 1; count <= max_attempts; count++)
     {
         for (int i = 0; i < 7; i++)
         {
@@ -28,21 +28,18 @@ int main(void)
             return 0;
         }
         else
-
-        count =+
-        {
-        printf("keep trying!!\n");
-            {
-                found = false;
-
+            count +=
+                printf("keep trying!!\n");
                 {
-                    printf("Keep trying");
-                }
+                    found = false;
+                    {
+                        printf("Keep trying");
+                    }
 
-                if (count == 3)
-                break;
-            }
-        }
+                    if (count == 3)
+                        break;
+                }
         return 0;
     }
 }
+
