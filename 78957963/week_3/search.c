@@ -8,7 +8,7 @@ int main(void)
     int numbers[] = {20, 500, 10, 5, 100, 1, 50};
     int n = get_int("Enter a number: \n");
     bool found = false;
-    int max_attempts = 3
+    int max_attempts = 3;
 
     for(int count =1; count <= max_attempts; count++)
     {
@@ -29,18 +29,18 @@ int main(void)
     }
     else
 
-    count = count ++
+    count = count++;
     {
         printf("keep trying!!\n");
         {
             found = false;
 
             {
-                printf("Keep trying")
+                printf("Keep trying");
             }
 
-            if (count == 3);
-            break
+            if (count == 3)
+            break;
         }
     }
     return 0;
