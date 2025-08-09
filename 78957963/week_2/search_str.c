@@ -8,6 +8,6 @@ int main(void)
     printf("%zu\n", strlen(strings));
     // string input_string = get_string("String: ");
     // for(int i = 0; i < len(input_string); i++);
-
+    return 0;
 }
 
