@@ -11,7 +11,7 @@ int main(void)
     int word_count = sizeof(strings) / sizeof(strings[0]);
     for(int i = 0; i < len(input_string); i++)
     {
-        printf("%s\n", words[i]);
+        printf("%s\n", strings[i]);
     }
 }
 
