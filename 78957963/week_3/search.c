@@ -30,19 +30,19 @@ int main(void)
         else
 
         count = count++;
-    {
-        printf("keep trying!!\n");
         {
-            found = false;
-
+        printf("keep trying!!\n");
             {
-                printf("Keep trying");
+                found = false;
+
+                {
+                    printf("Keep trying");
+                }
+
+                if (count == 3)
+                break;
             }
-
-            if (count == 3)
-            break;
-
         }
+        return 0;
     }
-    return 0;
 }
