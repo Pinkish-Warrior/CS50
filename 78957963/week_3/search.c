@@ -1,6 +1,6 @@
 #include <cs50.h>
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 int main(void)
 {
@@ -28,18 +28,16 @@ int main(void)
             return 0;
         }
         else
-            count +=
-                printf("keep trying!!\n");
-                {
-                    found = false;
-                    {
-                        printf("Keep trying");
-                    }
+            count += printf("keep trying!!\n");
+        {
+            found = false;
+            {
+                printf("Keep trying");
+            }
 
-                    if (count == 3)
-                        break;
-                }
+            if (count == 3)
+                break;
+        }
         return 0;
     }
 }
-
