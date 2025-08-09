@@ -31,10 +31,12 @@ int main(void)
 
         {
             found = false;
-            count += printf("keep trying!!\n");
+            count +=
 
-            if (count == 3)
+            if (count == 3){
+                printf("You have no attempts left, godbye")
                 break;
+            }
         }
         return 0;
     }
