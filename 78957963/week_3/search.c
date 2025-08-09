@@ -29,19 +29,15 @@ int main(void)
         {
             return 0;
         }
-        else
 
+        if (count < max_attempts)
         {
-            if (count < max_attempts)
-            {
-                printf("Keep Trying!!\n");
-            }
-            else
-            {
-                printf("You have no attempts left, goodbye \n");
-            }
+            printf("Keep Trying!!\n");
         }
-
+        else
+        {
+            printf("You have no attempts left, goodbye \n");
+        }
     }
     return 0;
 }
