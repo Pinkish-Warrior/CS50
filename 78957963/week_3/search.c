@@ -12,6 +12,8 @@ int main(void)
 
     for (int count = 1; count <= max_attempts; count++)
     {
+        int n = get_int("Enter a number: \n");
+
         for (int i = 0; i < 7; i++)
         {
             if (numbers[i] == n)
