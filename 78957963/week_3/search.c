@@ -38,6 +38,7 @@ int main(void)
                 printf("You have no attempts left, goodbye \n");
             }
         }
-        return 0;
+
     }
+    return 0;
 }
