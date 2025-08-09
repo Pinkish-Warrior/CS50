@@ -9,7 +9,7 @@ int main(int argc, string argv[])
     // get user input
     if (argc != 2)
     {
-        printf("Please provide a word.\n");
+        printf("Please provide a set or characters to check e.g.: algorithm\n");
         return 1;
     }
 
@@ -40,6 +40,7 @@ int main(int argc, string argv[])
     }
 
     // Print out YES or NO
+
     printf("YES\n");
     return 0;
 }
