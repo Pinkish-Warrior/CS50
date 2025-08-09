@@ -41,8 +41,8 @@ int main(void)
 
             if (count == 3)
             break;
+
         }
     }
-
     return 0;
 }
