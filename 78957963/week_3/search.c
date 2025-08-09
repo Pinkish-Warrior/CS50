@@ -33,7 +33,7 @@ int main(void)
             found = false;
             count +=
 
-            if (count == 3){
+            if (count == max_attempts){
                 printf("You have no attempts left, godbye")
                 break;
             }
