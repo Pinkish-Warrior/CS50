@@ -21,15 +21,15 @@ int main(void)
                 break;
             }
         }
-    count = 0;
+        count = 0;
 
-    if (found)
-    {
-        return 0;
-    }
-    else
+        if (found)
+        {
+            return 0;
+        }
+        else
 
-    count = count++;
+        count = count++;
     {
         printf("keep trying!!\n");
         {
