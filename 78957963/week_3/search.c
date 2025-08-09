@@ -31,11 +31,13 @@ int main(void)
         else
 
         {
-            found = false;
-
-            n = get_int()
-            if (count == max_attempts){
-                printf("You have no attempts left, godbye");
+            if (count < max_attempts)
+            {
+                printf("Keep Trying!!")
+            }
+            else
+            {
+                printf("You have no attempts left, goodbye \n");
                 break;
             }
         }
