@@ -12,8 +12,6 @@ int main(void)
 
     for (int count = 1; count <= max_attempts; count++)
     {
-        int n = get_int("Enter a number: \n");
-
         for (int i = 0; i < 7; i++)
         {
             if (numbers[i] == n)
@@ -33,12 +31,11 @@ int main(void)
         {
             if (count < max_attempts)
             {
-                printf("Keep Trying!!")
+                printf("Keep Trying!!\n");
             }
             else
             {
                 printf("You have no attempts left, goodbye \n");
-                break;
             }
         }
         return 0;
