@@ -31,10 +31,9 @@ int main(void)
 
         {
             found = false;
-            count +=
 
             if (count == max_attempts){
-                printf("You have no attempts left, godbye")
+                printf("You have no attempts left, godbye");
                 break;
             }
         }
