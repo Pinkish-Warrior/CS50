@@ -9,7 +9,7 @@ int main(void)
 
 
     int word_count = sizeof(strings) / sizeof(strings[0]);
-    for(int i = 0; i < len(word_count); i++)
+    for(int i = 0; i < word_count; i++)
     {
         printf("%s\n", strings[i]);
     }
