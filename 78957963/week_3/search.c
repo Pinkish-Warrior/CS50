@@ -4,12 +4,13 @@
 
 int main(void)
 {
-    // create a array
+    // Create a array of numbers
     int numbers[] = {20, 500, 10, 5, 100, 1, 50};
 
     bool found = false;
     int max_attempts = 3;
 
+    // Loop for max attempts
     for (int count = 1; count <= max_attempts; count++)
     {
 
