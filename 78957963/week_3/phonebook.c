@@ -43,4 +43,13 @@ int main(void)
 
     people[2].namme = "John";
     people[2].number = "+447999976543";
+
+    string name = get_string("Name: ");
+    for (int i = 0; i < 3; i++)
+    {
+        if (strcmp(people[i], people) == 0)
+        {
+            printf("Found %")
+        }
+    }
 }
