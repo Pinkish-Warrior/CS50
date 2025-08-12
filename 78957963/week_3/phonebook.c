@@ -3,5 +3,6 @@
 
 int main(void)
 {
-    string names[] ={ "+447525844889","+447708817550","+44"}
+    string name[] = {"Yuliia", "Davis", "John"};
+    string numbers[] = { "+447525844889","+447708817550","+447999976543"};
 }
