@@ -34,5 +34,5 @@ person;
 
 int main(void)
 {
-
+    person people[3]
 }
