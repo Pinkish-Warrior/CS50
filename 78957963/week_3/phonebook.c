@@ -34,5 +34,13 @@ person;
 
 int main(void)
 {
-    person people[3]
+    person people[3];
+    people[0].namme = "Yuliia";
+    people[0].number = "+447525844889";
+
+    people[1].namme = "David";
+    people[1].number = "+447708817550";
+
+    people[2].namme = "John";
+    people[2].number = "+447999976543";
 }
