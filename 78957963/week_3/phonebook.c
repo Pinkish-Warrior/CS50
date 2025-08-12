@@ -25,10 +25,12 @@
 
 // structure
 
-typedef struct{
-    name:
-    number:
+typedef struct
+{
+    string name;
+    string number;
 }
+person;
 
 int main(void)
 {
