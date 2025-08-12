@@ -8,15 +8,15 @@ int main(void)
     string numbers[] = {"+447525844889", "+447708817550", "+447999976543"};
 
     string name = get_string("Name: ");
-    for (int i = 0; i < (sizeof(names) / sizeof(names[])); i++)
+    for (int i = 0; i < sizeof(names) / sizeof(names[0]); i++)
     {
         if (strcmp(names[i], name) == 0)
         {
-            printf("Found %s/n", numbers[i]);
+            printf("Found %s\n", numbers[i]);
             // number found
             return 0;
         }
     }
-    printf("Not Found!/n");
+    printf("Not Found!\n");
     return 1;
 }
