@@ -8,7 +8,7 @@ int main(void)
     string numbers[] = {"+447525844889", "+447708817550", "+447999976543"};
 
     string name = get_string("Name: ");
-    for (int i = 0; i < sizeof(names[]); i++)
+    for (int i = 0; i < sizeof(names/names[]); i++)
     {
         if (strcmp(names[i], name) == 0)
         {
