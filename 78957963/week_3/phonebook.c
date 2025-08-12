@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// linear search as opossed to the binary one provided before in the search.c
 // int main(void)
 // {
 //     string names[] = {"Yuliia", "David", "John"};
