@@ -10,13 +10,13 @@ int main(void)
     string name = get_string("Name: ");
     for (int i = 0; i < strlen(names[i]); i++)
     {
-        if(strcmp names[i], name) == 0)
+        if(strcmp (names[i], name) == 0)
         {
             printf("Found %s/n", numbers[i]);
             // number found
             return 0;
         }
     }
-    printf("Not Found!"\n);
-    return 1:
+    printf("Not Found!/n");
+    return 1;
 }
