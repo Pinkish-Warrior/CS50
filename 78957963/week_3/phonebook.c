@@ -7,6 +7,9 @@ int main(void)
     string names[] = {"Yuliia", "Davis", "John"};
     string numbers[] = {"+447525844889", "+447708817550", "+447999976543"};
 
+    // refactoring :
+    
+
     string name = get_string("Name: ");
     for (int i = 0; i < sizeof(names) / sizeof(names[0]); i++)
     {
