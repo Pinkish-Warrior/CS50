@@ -35,13 +35,13 @@ person;
 int main(void)
 {
     person people[3];
-    people[0].namme = "Yuliia";
+    people[0].name = "Yuliia";
     people[0].number = "+447525844889";
 
-    people[1].namme = "David";
+    people[1].name = "David";
     people[1].number = "+447708817550";
 
-    people[2].namme = "John";
+    people[2].name = "John";
     people[2].number = "+447999976543";
 
     string name = get_string("Name: ");
@@ -49,7 +49,10 @@ int main(void)
     {
         if (strcmp(people[i], people) == 0)
         {
-            printf("Found %")
+            printf("Found %s\n");
+            return 0;
         }
     }
+    printf("Not found!\n");
+    return 1;
 }
