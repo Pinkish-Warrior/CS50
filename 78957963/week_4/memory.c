@@ -18,5 +18,5 @@ int main(void)
     free(x);
 
     // avoiding dangling pointers
-    int *x == NULL;
+    int x = NULL;
 }
