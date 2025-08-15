@@ -19,8 +19,8 @@ int main(void)
     free(x);
 
     // avoiding dangling pointers
-    else (x = NULL)
+    else
     {
-
-        return 0
+        x = NULL
+        return 0;
     }
