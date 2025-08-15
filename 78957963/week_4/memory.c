@@ -11,7 +11,7 @@ int main(void)
     x[1] = 73;
     x[2] = 33;
 
-    if (int x != NULL)
+    if (x != NULL)
     {
         printf("Memory aloccated susscefully");
     }
