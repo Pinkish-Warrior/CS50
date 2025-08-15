@@ -21,3 +21,6 @@ void swap(int *a, int *b)
     *a = *b;
     *b = tmp;
 }
+// stack overflow
+// buffer overflow
+// heap overflow
