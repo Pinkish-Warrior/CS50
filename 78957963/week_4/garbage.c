@@ -7,6 +7,7 @@ int main(void)
     int *x;
     int *y;
 
+    // pointer memory allocation to a pointee
     x = malloc(sizeof(int));
 
     *x = 42;
