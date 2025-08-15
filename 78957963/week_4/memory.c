@@ -17,7 +17,7 @@ int main(void)
     x[1] = 73;
     x[2] = 33;
 
-    printf("%d %d %d \nMemory alloccated succesfully.\n", x[0], x[1], x[2]);
+    printf("%d %d %d \nMemory allocated successfully.\n", x[0], x[1], x[2]);
     if (x != NULL)
 
     // freeing up memory used(preventing memory leaks)
