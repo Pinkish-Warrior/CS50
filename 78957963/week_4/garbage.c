@@ -4,13 +4,13 @@
 
 int main(void)
 {
-    int scores[1024];
+    int *x;
+    int *y;
 
-    for (int i = 0; i < 1024; i++)
-    {
-        printf("%i\n", scores[i]);
-    }
+    x = malloc(sizeof(int));
 
-    printf("Hello World from C");
-    // Allways remember to free up memory before exiting the program
-}
+    *x = 42;
+
+    y = x;
+
+    *y = 13;
