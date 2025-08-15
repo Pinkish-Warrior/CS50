@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// prototype
 void swap(int *a, int *b);
 
 int main(void)
