@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// demostrating the use of valgrind ./memory.c
+// use valdring 
 int main(void)
 {
     // memory allocation for the pointer of size per following
@@ -27,3 +29,5 @@ int main(void)
     x = NULL;
     return 0;
 }
+
+
