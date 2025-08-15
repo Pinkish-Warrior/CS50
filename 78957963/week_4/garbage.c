@@ -11,8 +11,6 @@ int main(void)
         printf("%i\n", scores[i]);
     }
 
-
-
     printf("Hello World from C");
     // Allways remember to free up memory before exiting the program
 }
