@@ -19,7 +19,7 @@ int main(void)
 
     if (x != NULL)
 
-    printf("Memory aloccated susscefully");
+    printf("%pMemory aloccated succesfully\n");
 
     // freeing up memory used(preventing memory leaks)
     free(x);
