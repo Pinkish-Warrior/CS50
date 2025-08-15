@@ -4,6 +4,7 @@
 int main(void)
 {
     // memory allocation for the pointer
+    
     int *x = malloc(3 * sizeof(int));
     x[0] = 72;
     x[1] = 73;
