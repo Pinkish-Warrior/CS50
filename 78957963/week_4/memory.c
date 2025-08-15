@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// demostrating the use of valgrind ./memory.c
-// use valdring 
+// demostrating the use of valgrind ./memory
+// use valdrind and the compiled file to check for verboses related to memory in c
+
 int main(void)
 {
     // memory allocation for the pointer of size per following
