@@ -11,14 +11,15 @@ int main(void)
     x[1] = 73;
     x[2] = 33;
 
-    if (int x != NULL) {
+    if (int x != NULL)
+    {
         printf("Memory aloccated susscefully");
     }
     // freeing up memory used(preventing memory leaks)
     free(x);
 
     // avoiding dangling pointers
-    else (int x = NULL)
+    else (x = NULL)
     {
 
         return 0
