@@ -22,3 +22,24 @@ int main (void)
 {
     fscan()
 }
+
+/* Guidance */
+// int main(int argc, string argv[])
+
+// Open file
+
+// Create buffer
+
+// Read first four bytes from the file
+
+// Check the first four bytes again signature bytes
+
+// Sucess!
+
+// Close file
+
+
+
+
+
+// Close file
