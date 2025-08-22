@@ -27,6 +27,7 @@ int main (void)
 // int main(int argc, string argv[])
 
 // Open file
+FILE *input = fopen(argv[1], "r")
 
 // Create buffer
 
