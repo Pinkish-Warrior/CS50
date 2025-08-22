@@ -20,6 +20,7 @@ int hasExtension(const char *filename, const char *extension)
 int main (void)
 
 {
+
     fscan()
 }
 
