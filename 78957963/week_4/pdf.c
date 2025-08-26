@@ -53,7 +53,7 @@ int main(int argc, string argv[])
     uint8_t signature[] = {0x25, 0x50, 0x44, 0x46};
 
     // Read first four bytes from the file
-    fread(buffer, [sizeof(uint8_t), sizeof(signature), input);
+    fread(buffer, sizeof(uint8_t), sizeof(signature), input);
 
     // Check or the first four bytes again signature bytes
     for (int i = 0; i < 4; i++)
