@@ -12,9 +12,11 @@ int hasExtension(const char *filename, const char *extension)
     const char *dot = strrchr(filename, '.');
 
     // no dot means no extension
-    if (!dot || dot == filename) return 0;
+    if (!dot || dot == filename)
+    printf(dot)
+    return 0;
 
-    // comparing teh extension
+    // comparing to the extension
     return strcmp(dot +1, extension) == 0;
 }
 int main(void)
