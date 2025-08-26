@@ -24,7 +24,7 @@ int main(void)
     string extension = get_string("Extension: ")
     hasExtension(filename, extension)
     {
-        if (*filename == filename)
+        if (hasExtension == 1)
         {
             printf("true");
             return 0;
