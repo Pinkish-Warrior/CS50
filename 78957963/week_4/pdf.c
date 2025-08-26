@@ -31,11 +31,15 @@ int main (void)
 FILE *input = fopen(argv[1], "r")
 
 // Create buffer for file
-uint8_t buffer[4]
+uint8_t buffer[4]; //0x25 0x50 0x44 0x46
+
+// Create an array of the given signature bytes
+uint8_t signature[] = {0x25, 0x50, 0x40, 0x46}
 
 // Read first four bytes from the file
+fread(buffer, sizeof(uint8_t), 4, input)
 
-// Check the first four bytes again signature bytes
+// Check or the first four bytes again signature bytes
 
 // Sucess!
 
