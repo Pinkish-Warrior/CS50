@@ -8,7 +8,7 @@
 // read the name of a file and return yes for those .pdf
 // check if the sequence is 0x25 0x50 0x44 0x46
 int hasExtension(const char *filename, const char *extension)
-
+{
     // find the last dot in the filename
     const char *dot = strrchr(filename, '.');
 
@@ -17,10 +17,10 @@ int hasExtension(const char *filename, const char *extension)
 
     // comparing teh extension
     return strcmp(dot +1, extension) == 0;
-
+}
 int main(void)
 {
-    hasExtension()
+    hasExtension();
 }
 
 /* Guidance */
