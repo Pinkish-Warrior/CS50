@@ -20,37 +20,32 @@ int hasExtension(const char *filename, const char *extension)
 /* Guidance */
 // int main(int argc, string argv[])
 int main(int argc, string argv[])
-
-// Open file
-FILE *input = fopen(argv[1], "r")
-
-// Create buffer for file
-uint8_t buffer[4]; //0x25 0x50 0x44 0x46
-
-// Create an array of the given signature bytes (%pdf = 0x25, 0x50, 0x40, 0x46)
-uint8_t signature[] = {0x25, 0x50, 0x40, 0x46};
-
-// Read first four bytes from the file
-fread(buffer, sizeof(uint8_t), 4, input)
-
-// Check or the first four bytes again signature bytes
-for (int i = 0; i < 4; i++)
 {
-    if (signature[i] != buffer[i])
+
+    // Open file
+    FILE *input = fopen(argv[1], "r")
+
+    // Create buffer for file
+    uint8_t buffer[4]; //0x25 0x50 0x44 0x46
+
+    // Create an array of the given signature bytes (%pdf = 0x25, 0x50, 0x40, 0x46)
+    uint8_t signature[] = {0x25, 0x50, 0x40, 0x46};
+
+    // Read first four bytes from the file
+    fread(buffer, sizeof(uint8_t), 4, input)
+
+    // Check or the first four bytes again signature bytes
+    for (int i = 0; i < 4; i++)
     {
-        printf("This is not a pdf file!\n");
-        return 0;
+        if (signature[i] != buffer[i])
+        {
+            printf("This is not a pdf file!\n");
+            return 0;
+        }
     }
+    // Sucess!
+    printf("This is a PDF!\n")
+
+    // Close file
+    fclose(input)
 }
-// Sucess!
-printf("This is a PDF!\n")
-
-// Close file
-fclose(input)
-
-
-
-
-
-
-// Close file
