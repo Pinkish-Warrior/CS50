@@ -20,7 +20,8 @@ int hasExtension(const char *filename, const char *extension)
 }
 int main(void)
 {
-    get_string()
+    string filename = get_string("Provide a name to check: \n");
+    string extension = get_string("Extension: ")
     hasExtension(filename, extension);
 }
 
