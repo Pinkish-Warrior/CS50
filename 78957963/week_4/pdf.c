@@ -17,7 +17,6 @@ int hasExtension(const char *filename, const char *extension)
         printf("%s\n", dot);
         return 0;
     }
-
     // comparing to the extension
     return strcmp(dot +1, extension) == 0;
 }
@@ -28,10 +27,10 @@ int main(void)
     {
         if(hasExtension(filename, extension))
         {
-            printf("true");
+            printf("True\n");
             return 0;
         }
-        printf("Try again!");
+        printf("Try again!\n");
     }
 }
 
