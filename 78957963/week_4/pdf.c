@@ -40,7 +40,7 @@
 // Solution B
 // int main(int argc, string argv[])
 
-int main(int argc, string argv[])
+int main(int argc, char *argv[])
 {
 
     // Open file
