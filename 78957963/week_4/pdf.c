@@ -14,7 +14,7 @@ int hasExtension(const char *filename, const char *extension)
     // no dot means no extension
     if (!dot || dot == filename)
     {
-        printf("%s\n", dot)
+        printf("%s\n", dot);
         return 0;
     }
 
