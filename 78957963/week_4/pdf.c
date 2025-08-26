@@ -21,20 +21,18 @@ int hasExtension(const char *filename, const char *extension)
 int main(void)
 {
     string filename = get_string("Provide a name to check: \n");
-    string extension = get_string("Extension: ")
-    hasExtension(filename, extension)
+    string extension = get_string("Extension: ");
     {
         if(hasExtension(filename, extension))
         {
             printf("true");
             return 0;
         }
-        printf("Try again");
+        printf("Try again!");
     }
 }
 
-/* Guidance */
-
+/* Guidance
 // Solution B
 // int main(int argc, string argv[])
 int main(int argc, string argv[])
@@ -67,3 +65,4 @@ int main(int argc, string argv[])
     // Close file
     fclose(input)
 }
+*/
