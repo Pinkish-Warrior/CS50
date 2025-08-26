@@ -22,7 +22,15 @@ int main(void)
 {
     string filename = get_string("Provide a name to check: \n");
     string extension = get_string("Extension: ")
-    hasExtension(filename, extension);
+    hasExtension(filename, extension)
+    {
+        if (*filename == filename)
+        {
+            printf("true");
+            return 0;
+        }
+        printf("Try again");
+    }
 }
 
 /* Guidance */
