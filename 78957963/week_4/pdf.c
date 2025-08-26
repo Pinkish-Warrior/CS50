@@ -17,15 +17,9 @@ int hasExtension(const char *filename, const char *extension)
     return strcmp(dot +1, extension) == 0;
 
 
-int main (void)
-
-{
-
-    fscan()
-}
-
 /* Guidance */
 // int main(int argc, string argv[])
+int main(int argc, string argv[])
 
 // Open file
 FILE *input = fopen(argv[1], "r")
