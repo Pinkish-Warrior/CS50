@@ -47,7 +47,7 @@ int main(int argc, char argv[])
         printf("Usage: ./pdf filename\n");
         return 1;
     }
-    
+
     // Open file
     FILE *input = fopen(argv[1], "r");
 
