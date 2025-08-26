@@ -49,8 +49,11 @@ for (int i = 0; i < 4; i++)
     }
 }
 // Sucess!
+printf("This is a PDF!\n")
 
 // Close file
+fclose(input)
+
 
 
 
