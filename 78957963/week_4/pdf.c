@@ -3,6 +3,8 @@
 #include <stdout.h>
 #include <string.h>
 
+// Solution A
+
 // read the name of a file and return yes for those .pdf
 // check if the sequence is 0x25 0x50 0x44 0x46
 int hasExtension(const char *filename, const char *extension)
@@ -16,8 +18,14 @@ int hasExtension(const char *filename, const char *extension)
     // comparing teh extension
     return strcmp(dot +1, extension) == 0;
 
+int main(void)
+{
+    hasExtension()
+}
 
 /* Guidance */
+
+// Solution B
 // int main(int argc, string argv[])
 int main(int argc, string argv[])
 {
