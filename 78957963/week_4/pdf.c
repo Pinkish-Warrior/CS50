@@ -30,7 +30,8 @@ int main (void)
 // Open file
 FILE *input = fopen(argv[1], "r")
 
-// Create buffer
+// Create buffer for file
+uint8_t buffer[4]
 
 // Read first four bytes from the file
 
