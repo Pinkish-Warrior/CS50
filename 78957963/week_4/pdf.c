@@ -20,7 +20,7 @@ int hasExtension(const char *filename, const char *extension)
 }
 int main(void)
 {
-    hasExtension();
+    hasExtension(char filename, char extension);
 }
 
 /* Guidance */
