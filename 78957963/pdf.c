@@ -22,3 +22,14 @@ int main (void)
 {
     fscan()
 }
+
+/* Solution */
+
+// argc = argument count
+// argv = argument vector which is an array of pointers to an array of characters objects
+int main (int argc, string argv[])
+    // check if comply with the two arguments  
+    if( argc != 2)
+    {
+
+    }
