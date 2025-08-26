@@ -28,11 +28,10 @@ int main(void)
         if(hasExtension(filename, extension))
         {
             printf("True\n");
-            return 0;
         }
         else
         {
-        printf("Try again!\n");
+            printf("Try again!\n");
         }
     }
 }
