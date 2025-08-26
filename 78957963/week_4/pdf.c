@@ -40,9 +40,14 @@
 // Solution B
 // int main(int argc, string argv[])
 
-int main(int argc, char *argv[])
+int main(int argc, char argv[])
 {
-
+    if (argx != 2)
+    {
+        printf("Usage: ./pdf filename\n");
+        return 1;
+    }
+    
     // Open file
     FILE *input = fopen(argv[1], "r");
 
