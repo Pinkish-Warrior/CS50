@@ -13,8 +13,10 @@ int hasExtension(const char *filename, const char *extension)
 
     // no dot means no extension
     if (!dot || dot == filename)
-    printf(dot)
-    return 0;
+    {
+        printf("%s\n", dot)
+        return 0;
+    }
 
     // comparing to the extension
     return strcmp(dot +1, extension) == 0;
