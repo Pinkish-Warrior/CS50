@@ -30,7 +30,10 @@ int main(void)
             printf("True\n");
             return 0;
         }
+        else
+        {
         printf("Try again!\n");
+        }
     }
 }
 
