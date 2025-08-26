@@ -46,7 +46,7 @@ int main(int argc, string argv[])
     FILE *input = fopen(argv[1], "r");
 
     // Create buffer for file
-    uint8_t buffer[4];  //0x25 0x50 0x44 0x46
+    uint8_t buffer[4]; //0x25 0x50 0x44 0x46
 
     // Create an array of the given signature bytes (%pdf = 0x25, 0x50, 0x40, 0x46)
     uint8_t signature[] = {0x25, 0x50, 0x40, 0x46};
