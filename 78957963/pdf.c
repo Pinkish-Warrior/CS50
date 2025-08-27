@@ -29,7 +29,7 @@ int main (void)
 // argv = argument vector which is an array of pointers to an array of characters objects
 int main (int argc, string argv[])
     // create buffer for file, preventing memory leak.
-    
+
     unit8_t buffer[4];
 
 

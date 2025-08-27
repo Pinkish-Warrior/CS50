@@ -1,0 +1,20 @@
+        data type |  size(in bytes)
+          int     |         4
+          char    |         1
+          float   |         4
+          double  |         8
+        long long |         8
+          string  |         ?
+
+
+dynamic memory allocation:
+
+// statically obtain an integer
+int x;
+
+// dynamically obtain an integer
+int *px = malloc(sizeof(int));
+
+when using malloc() allways combine with the free() to unalocated those memories therafter using it.
+
+

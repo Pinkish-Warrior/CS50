@@ -1,6 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
+#include <stdint.h>
 
 // Solution A(my solution)
 
@@ -38,11 +39,10 @@
 
 /* Guidance */
 // Solution B
-// int main(int argc, string argv[])
 
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
-    if (argx != 2)
+    if (argc != 2)
     {
         printf("Usage: ./pdf filename\n");
         return 1;
@@ -51,14 +51,25 @@ int main(int argc, char argv[])
     // Open file
     FILE *input = fopen(argv[1], "r");
 
-    // Create buffer for file
-    uint8_t buffer[4]; // 0x25 0x50 0x44 0x46
+    if(input == NULL)
+    {
+        printf("Could not open file");
+        return 1;
+    }
+
+    // Create buffer for file 0x25 0x50 0x44 0x46
+    uint8_t buffer[4];
 
     // Create an array of the given signature bytes (%pdf = 0x25, 0x50, 0x44, 0x46)
     uint8_t signature[] = {0x25, 0x50, 0x44, 0x46};
 
     // Read first four bytes from the file
-    fread(buffer, sizeof(uint8_t), sizeof(signature), input);
+    if (fread(buffer, sizeof(uint8_t), sizeof(signature), input) != sizeof(signature))
+    {
+        printf("File too small to be a PDF!\n");
+        fclose(input);
+        return 1;
+    }
 
     // Check or the first four bytes again signature bytes
     for (int i = 0; i < 4; i++)
@@ -66,7 +77,8 @@ int main(int argc, char argv[])
         if (signature[i] != buffer[i])
         {
             printf("This is not a pdf file!\n");
-            return 0;
+            fclose(input);
+            return 1;
         }
     }
     // Sucess!
@@ -74,5 +86,6 @@ int main(int argc, char argv[])
 
     // Close file
     fclose(input);
+    return 0;
 }
 
