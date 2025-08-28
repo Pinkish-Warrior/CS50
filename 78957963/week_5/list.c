@@ -45,5 +45,5 @@ int main(void)
 
     // time passes
 
-    node * ptr
+    node * ptr = list
 }
