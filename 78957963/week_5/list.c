@@ -2,6 +2,13 @@
 #include <cs50.h>
 #include <stdlib.h>
 
+typedef struc node
+{
+    int number
+    struct node *next;
+} node;
+
+
 int main(void)
 {
     /* Initial approach */
@@ -15,9 +22,14 @@ int main(void)
     //     printf("%i\n", list[i]);
     // }
 
-    /* Secundary approach */
+    /* Second approach */
     // int *list = malloc(3 * sizeof(int));
 
-    /* third approach */
 
+    /* Third approach */
+    node *list = NULL;
+    for (int i = 0; i < 3; i++)
+    {
+
+    }
 }
