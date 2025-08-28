@@ -16,6 +16,8 @@ int main(void)
     // }
 
     /* Secundary approach */
-    int *list = malloc(3 * sizeof(int));
+    // int *list = malloc(3 * sizeof(int));
+
+    /* third approach */
 
 }
