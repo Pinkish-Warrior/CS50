@@ -32,7 +32,7 @@ int main(void)
     {
         node *n = malloc(sizeof(node));
         if(n == NULL)
-        {
+        {   // TODO: free any memory already malloc'd
             return 1;
         }
         // (*n).number = get_int("Number: ");
