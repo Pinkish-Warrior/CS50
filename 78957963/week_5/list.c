@@ -2,9 +2,9 @@
 #include <cs50.h>
 #include <stdlib.h>
 
-typedef struc node
+typedef struct node
 {
-    int number
+    int number;
     struct node *next;
 } node;
 
@@ -38,7 +38,7 @@ int main(void)
         // (*n).number = get_int("Number: ");
         n -> number = get_int("Number: ");
         // (*n).next = NULL;
-        n -> next = list
+        n -> next = list;
 
         list = n;
     }
