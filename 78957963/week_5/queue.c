@@ -12,7 +12,7 @@ const int CAPACITY = 50;
 
 typedef struct
 {
-    person people[capacity];
+    person people[CAPACITY];
     int size;
 }  queue;
 
