@@ -2,6 +2,6 @@
 
 typedef struct
 {
-    char *name;
-    char *number;
+    char* name;
+    char* number;
 } person;
