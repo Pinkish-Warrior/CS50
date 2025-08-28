@@ -74,6 +74,15 @@ int main(void)
     for (node *ptr = list; ptr != NULL; ptr = ptr->next)
     {
         printf("%i\n", ptr->number);
+
+    }
+
+    // Time passes
+    node *ptr = list;
+    while (ptr != NULL)
+    {
+        free(ptr);
+        ptr = ptr->next
     }
     return 0;
 }
@@ -81,7 +90,7 @@ int main(void)
 /* Big O:
 O(n^2) - The algorithm's running time grows quadratically with the input size. ex.: nested loop
 O(n log n) - The algorithm's running time grows in proportion. ex.: mergesort and quicksort
-O(n) - The algorithm's running time grows linearly with the input size. ex.: single loop 
+O(n) - The algorithm's running time grows linearly with the input size. ex.: single loop
 O(log n) - The algorithm's running time grows logarithmically with the input size. ex.: binary serach
 O(1) - The algorithm's running time is constant, regardless of the input size. ex.: acess an element in an array by index.
 */
