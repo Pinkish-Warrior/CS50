@@ -41,6 +41,9 @@ int main(void)
         n -> next = list
 
         list = n;
-
     }
+
+    // time passes
+
+    node * ptr
 }
