@@ -1,7 +1,14 @@
 
 
-typedef struct
+// typedef struct
+// {
+//     char* name;
+//     char* number;
+// } person;
+
+
+typedef struct node
 {
-    char* name;
-    char* number;
-} person;
+    int number;
+    struct node *next;
+} node;
