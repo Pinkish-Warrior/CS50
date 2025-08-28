@@ -49,5 +49,6 @@ int main(void)
     while (ptr != NULL)
     {
         printf("%i\n", ptr->number);
+        ptr = ptr->next;
     }
 }
