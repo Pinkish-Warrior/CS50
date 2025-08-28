@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <stdlib.h>
 
 int main(void)
 {
@@ -15,6 +16,6 @@ int main(void)
     // }
 
     /* secundary approach */
-    
+    int *list = malloc(3 * sizeof(int));
 
 }
