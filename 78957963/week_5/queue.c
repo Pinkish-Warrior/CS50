@@ -3,7 +3,7 @@
 
 /* pointer refreshing
 int* pointer to a type int
-*ptr dereferencing
+*ptr dereferencing - access the value stored at this pointer
 &ptr address of the variable ptr
 */
 
