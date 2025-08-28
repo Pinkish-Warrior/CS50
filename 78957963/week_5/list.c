@@ -45,18 +45,27 @@ int main(void)
             list = n;
         }
         // if list has numbers already
-        else
+
+        // else
+        // {
+        //     // this approach is to append node at the end of a list checking with a for loop if the value at the end of the current list is NULL first.
+        //     for (node *ptr = list; ptr != NULL; ptr = ptr->next)
+        //     {
+        //         // If at end of list is NULL append at the end
+        //         if (ptr->n == NULL)
+        //         {
+        //             ptr->next = n;
+        //             break;
+        //         }
+        //     }
+        // }
+
+        // if numbers belong at the beginning of the list
+
+        else if (n-> number = list ->number);
         {
-            // this approach is to append node at the end of a list checking with a for loop if the value at the end of the current list is NULL first.
-            for (node *ptr = list; ptr != NULL; ptr = ptr->next)
-            {
-                // If at end of list is NULL append at the end
-                if (ptr->n == NULL)
-                {
-                    ptr->next = n;
-                    break;
-                }
-            }
+            n->next = list;
+            list = n;
         }
     }
 
