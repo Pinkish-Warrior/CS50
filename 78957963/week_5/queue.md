@@ -1,0 +1,7 @@
+
+# queue
+- FIFO
+## enqueue
+
+## dequeue
+
