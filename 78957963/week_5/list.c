@@ -62,12 +62,20 @@ int main(void)
 
     // time passes
 
-    node *ptr = list;
-    while (ptr != NULL)
+    /* wile loop vs for loop */
+
+    // node *ptr = list;
+    // while (ptr != NULL)
+    // {
+    //     printf("%i\n", ptr->number);
+    //     ptr = ptr->next;
+    // }
+
+    for (node *ptr = list; ptr != NULL; ptr = ptr->next)
     {
         printf("%i\n", ptr->number);
-        ptr = ptr->next;
     }
+    return 0;
 }
 
 /* Big O:
