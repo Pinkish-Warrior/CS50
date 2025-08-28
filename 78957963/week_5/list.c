@@ -36,11 +36,27 @@ int main(void)
             return 1;
         }
         // (*n).number = get_int("Number: ");
-        n -> number = get_int("Number: ");
+        n->number = get_int("Number: ");
         // (*n).next = NULL;
-        n -> next = list;
+        n->next = NULL;
 
-        list = n;
+        if (list == NULL)
+        {
+            list = n;
+        }
+        // if list has numbers already
+        else
+        {
+            for (node *ptr = list; ptr != NULL; ptr = ptr->next)
+            {
+                // If at end of list
+                if (ptr->n == NULL)
+                {
+                    ptr->next = n;
+                    break;
+                }
+            }
+        }
     }
 
     // time passes
