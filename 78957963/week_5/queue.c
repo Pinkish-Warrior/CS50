@@ -1,10 +1,10 @@
 # include <cs50.h>
 
 
-/* pointer refreshing
+/* pointer refreshner
 int* pointer to a type int
 *ptr dereferencing - access the value stored at this pointer
-&ptr address of the variable ptr
+&ptr memory address of the variable ptr.
 */
 
 
