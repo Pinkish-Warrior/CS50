@@ -81,6 +81,7 @@ int main(void)
     node *ptr = list;
     while (ptr != NULL)
     {
+        node *next = ptr->next;
         free(ptr);
         ptr = ptr->next
     }
