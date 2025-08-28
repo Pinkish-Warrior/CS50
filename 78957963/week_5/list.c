@@ -45,5 +45,9 @@ int main(void)
 
     // time passes
 
-    node * ptr = list
+    node *ptr = list;
+    while (ptr != NULL)
+    {
+        printf("%i\n", ptr->number);
+    }
 }
