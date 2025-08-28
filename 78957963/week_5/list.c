@@ -36,6 +36,7 @@ int main(void)
             return 1;
         }
         (*n).number = get_int("Number: ");
+        n -> number = 1;
         (*n).next = NULL;
     }
 }
