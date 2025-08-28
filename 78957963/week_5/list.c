@@ -83,7 +83,7 @@ int main(void)
     {
         node *next = ptr->next;
         free(ptr);
-        ptr = ptr->next
+        ptr = next;
     }
     return 0;
 }
