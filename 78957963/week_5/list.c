@@ -52,3 +52,11 @@ int main(void)
         ptr = ptr->next;
     }
 }
+
+/* need to understand this
+O(n2)
+O(n log n)
+O(n)
+O(log n)
+O(1)
+*/
