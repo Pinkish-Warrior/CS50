@@ -15,7 +15,7 @@ int main(void)
     //     printf("%i\n", list[i]);
     // }
 
-    /* secundary approach */
+    /* Secundary approach */
     int *list = malloc(3 * sizeof(int));
 
 }
