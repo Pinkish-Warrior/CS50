@@ -38,9 +38,9 @@ int main(void)
         // (*n).number = get_int("Number: ");
         n -> number = get_int("Number: ");
         // (*n).next = NULL;
-        n -> next = NULL
+        n -> next = list
 
-        
+        list = n;
 
     }
 }
