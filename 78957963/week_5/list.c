@@ -50,7 +50,7 @@ int main(void)
             // this approach is to append node at the end of a list checking with a for loop if the value at the end of the current list is NULL first.
             for (node *ptr = list; ptr != NULL; ptr = ptr->next)
             {
-                // If at end of list
+                // If at end of list is NULL 
                 if (ptr->n == NULL)
                 {
                     ptr->next = n;
