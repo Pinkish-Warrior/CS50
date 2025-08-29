@@ -30,5 +30,6 @@ int main(void)
 int hash(string phrase)
 {
     // return a number 0-25 depending on the the first char of the phrase
-    return toupper(phrase [0]) - 'A';
+    // return toupper(phrase [0]) - 'A';
+    return tolower(phrase[0] - 'a');
 }
