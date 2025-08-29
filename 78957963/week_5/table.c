@@ -26,3 +26,9 @@ int main(void)
         printf("%s hashes to %i\n", phrase, bucket);
     }
 }
+
+int hash(string phrase);
+{
+    //
+    return;
+}
