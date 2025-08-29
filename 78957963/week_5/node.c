@@ -11,7 +11,7 @@ typedef struct node
 {
     int number;          // this is the "cargo" box
     struct node *next;   // this is the "connector" to the next train block
-} node; // nickname 
+} node; // nickname
 
 /* Step by step:
 
@@ -29,4 +29,17 @@ void *data; → super flexible, can point to any kind of data
 This is the connector piece that lets this block hook onto the next block. It doesn’t hold a "value" itself, but instead points to where the next block is sitting.
 
 ✅ typedef ... node;
-This is just giving the block a short nickname. Instead of saying struct node every time, you can now just say node. /*
+This is just giving the block a short nickname. Instead of saying struct node every time, you can now just say node.
+
+
+typedef struct node
+{
+    int number;          // this is the "cargo" box
+    struct node *left;   // this is the "connector" to the next train block on the left
+    struct node *right   // this is the "connector" to the next train block in the right
+} node; // nickname
+
+
+
+
+/*
