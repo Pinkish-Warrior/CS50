@@ -34,3 +34,12 @@ typedef struct node
     struct node *next;
     //node *table[26]; - a table with 26 node pointers
 } node;
+
+/*
+include <ctype.h>
+
+int hash(char *word)
+{
+    return toupper(word[0])- 'A';
+}
+*/
