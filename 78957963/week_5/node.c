@@ -14,7 +14,6 @@ typedef struct node
 } node; // nickname
 
 /* Step by step:
-
 ✅ struct node { ... };
 This is like a blueprint for making a train block. Every block will have two parts inside it.
 
@@ -38,6 +37,6 @@ typedef struct node
     struct node *left;   // this is the "connector" to the next train block on the left
     struct node *right   // this is the "connector" to the next train block in the right
 } node; // nickname
-// This new structure gives us a superpower of a binary search.
-
+This new structure gives us a superpower of a binary search.
 /*
+
