@@ -26,3 +26,10 @@ x
 y
 z
 */
+
+typedef struct node
+{
+    char name;
+    char number;
+    struct node *next;
+} node;
