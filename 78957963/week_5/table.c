@@ -31,5 +31,7 @@ int hash(string phrase)
 {
     // return a number 0-25 depending on the the first char of the phrase
     // return toupper(phrase [0]) - 'A';
+    printf("phrase[0]: %i\n", phrase[0]);
     return tolower(phrase[0]) - 'a';
+
 }
