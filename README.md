@@ -10,7 +10,10 @@ This repository is the starting point of my **CS50** learning adventure. I’m c
 
 * ✅ Week 0: Scratch – **Completed**
 * ✅ Week 1: C – **Completed**
-* 🔄 Week 2: Arrays in C – **In progress**
+* ✅ Week 2: Arrays – **Completed**
+* ✅ Week 3: Algarithms – **Completed**
+* ✅ Week 4: Memory – **ICompleted**
+* 🔄 Week 5: Data Structures – **In progress**
 
 ---
 
