@@ -28,5 +28,5 @@ void *data; → super flexible, can point to any kind of data
 ✅ struct node *next;
 This is the connector piece that lets this block hook onto the next block. It doesn’t hold a "value" itself, but instead points to where the next block is sitting.
 
-✅ ♖typedef ... node;
+✅ typedef ... node;
 This is just giving the block a short nickname. Instead of saying struct node every time, you can now just say node. /*
