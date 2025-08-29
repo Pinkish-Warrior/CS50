@@ -66,4 +66,16 @@ typedef struct node
     struct node *right   // this is the "connector" to the next train block in the right
 } node; // nickname
 This new structure gives us a superpower of a binary search.
-/*
+*/
+
+bool search(node *tree, int number)
+{
+    if (tree == NULL)
+    {
+        return false;
+    } else if (number < tree->number)
+    {
+        return search( tree->left, number)
+    }
+}
+
