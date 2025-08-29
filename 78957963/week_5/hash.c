@@ -1,7 +1,7 @@
 /* Inserting Names on our list
 
 a
-b
+b -> Birdo
 c
 d
 e
@@ -11,7 +11,7 @@ h
 i
 j
 k
-l -> Luidi
+l -> Luidi -> Lakitu‼️ (Colusion)
 m -> Mario
 n
 o
