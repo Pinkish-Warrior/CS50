@@ -1,6 +1,5 @@
-#include<cs50.g>
+#include<cs50.h>
 #include<stdio.h>
-#include<stdib.h>
 #include<string.h>
 #include <ctype.h>
 
