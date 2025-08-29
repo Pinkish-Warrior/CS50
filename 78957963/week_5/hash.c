@@ -1,3 +1,5 @@
+/* Inserting Names on our list
+
 a
 b
 c
@@ -9,11 +11,11 @@ h
 i
 j
 k
-l
-m
+l -> Luidi
+m -> Mario
 n
 o
-p
+p -> Peach
 q
 r
 s
@@ -23,3 +25,4 @@ w
 x
 y
 z
+*/
