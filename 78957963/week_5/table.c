@@ -13,3 +13,16 @@ node *table[26];
 
 int hash(string phrase);
 bool unload(node *list);
+void visualizer(node *list);
+
+int main(void)
+{
+    for(int i = 0; i < 3; i++)
+    {
+        string phrase = get_string("Enter a new phrase: \n");
+
+        // Find Phrase backet
+        int bucket = hash(phrase);
+        printf("%s hashes to %i\n", phrase, bucket);
+    }
+}
