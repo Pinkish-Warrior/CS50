@@ -32,4 +32,5 @@ typedef struct node
     char *name;
     char *number;
     struct node *next;
+    //node *table[26]; - a table with 26 node pointers
 } node;
