@@ -78,7 +78,34 @@ person *create_family(int generations)
 
 void print_family(person *p, int generation)
 {
+    if (p == NULL)
+    {
+        return;
+    }
 
+    // Indent by generation
+    for (int i = 0; i < generation * INDENT_LENGTH; i++)
+    {
+        printf(" ");
+    }
+
+    // Print person
+    if (generation == 0)
+    {
+        printf("Child (Generation %i): blood type %c%c\n", GENERATIONS - generation, p->alleles[0], p->alleles[1]);
+    }
+    else if (generation == 1)
+    {
+        printf("Parent (Generation %i): blood type %c%c\n", GENERATIONS - generation, p->alleles[0], p->alleles[1]);
+    }
+    else
+    {
+        printf("Grandparent (Generation %i): blood type %c%c\n", GENERATIONS - generation, p->alleles[0], p->alleles[1]);
+    }
+
+    // Recursively print parents
+    print_family(p->parents[0], generation + 1);
+    print_family(p->parents[1], generation + 1);
 }
 // Free 'p' and all ancestors of 'p'.
 void free_family(person *p)
