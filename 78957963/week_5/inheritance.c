@@ -1,12 +1,19 @@
-# include<cs50.h>
-# include<stdio.h>
-# include<string.h>
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+#include <time.h>
 
 
-int main(void)
+
+// Each person has 2 parents
+typedef struct person
 {
-    free_family(p);
-}
+    struct person *parents[2];
+    char alleles[2];
+ } person;
+
+const int GENERATIONS = 3;
+const int INDENT_LENGTH = 4;
 
 // Create a new individual with 'generations'
 person *create_family(int generations)
