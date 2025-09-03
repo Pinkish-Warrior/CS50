@@ -43,7 +43,7 @@ person *create_family(int generations)
 {
     // TODO: Alocate memory for new person
     person *new_person = malloc(sizeof(person));
-    if (new_person == NULL)
+    if (new_person == NULL) // nothing to free 
     {
         return NULL; // I can not return 1 as my create function returns a pointer not a number.
     }
