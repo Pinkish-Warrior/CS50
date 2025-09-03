@@ -15,6 +15,26 @@ typedef struct person
 const int GENERATIONS = 3;
 const int INDENT_LENGTH = 4;
 
+
+
+
+
+
+int main(void)
+{
+    // Seed random number generator
+    srand(time(0));
+
+    // Create a new family with three generations
+    person *p = create_family(GENERATIONS);
+
+    // Print family tree of blood types
+    print_family(p, 0);
+
+    // Free memory
+    free_family(p);
+}
+
 // Create a new individual with 'generations'
 person *create_family(int generations)
 {
@@ -54,7 +74,7 @@ person *create_family(int generations)
     // TODO: Return newly created person
     return new_person;
 
-    
+
     void print_family(person *p, int generation);
 
 
@@ -90,3 +110,5 @@ char randon_allele()
         return 'O'
     }
 }
+
+
