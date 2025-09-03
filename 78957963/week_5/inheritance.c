@@ -15,7 +15,7 @@ person *create_family(int generations)
     person *new_person - malloc(sizeof(person));
     if (new_person == NULL)
     {
-        return NULL;
+        return NULL; // I can not return 1 as my create function returns a pointer not a number.
     }
     // If there are still generetions left to create
     if(generations > 1)
