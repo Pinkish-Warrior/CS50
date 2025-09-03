@@ -23,5 +23,11 @@ person *create_family(int generations)
         // Create two new parents for the current person by callening it recursivily
         person *parent0 = create_family(generations - 1);
         person *parent1 = create_family(generations - 1);
+
+        // TODO: Set parrent pointers for the current person
+        new_person->person[0] =
+        new_person->person[1] = 
+
+        // Randomly assign current person's a;lleeles based on
     }
 }
