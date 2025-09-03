@@ -133,7 +133,9 @@ char random_allele()
     {
         return 'A';
     }
-    else if (r == 1)    void free_family(person *p)
+    else if (r == 1)
+
+    void free_family(person *p)
     {
         if (p == NULL)
         {
