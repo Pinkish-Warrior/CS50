@@ -74,12 +74,12 @@ person *create_family(int generations)
 
     // TODO: Return newly created person
     return new_person;
-
-
-    void print_family(person *p, int generation);
-
 }
 
+void print_family(person *p, int generation);
+{
+    
+}
 // Free 'p' and all ancestors of 'p'.
 void free_family(person *p)
 {
