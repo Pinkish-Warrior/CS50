@@ -118,12 +118,10 @@ void free_family(person *p)
     free_family(p->parents[0]);
     free_family(p->parents[1]);
 
-    // TODO: Free child
-    free(p);
-
     // print each family member and their alleles
     printf("Freeing person with alleles %c%c\n", p->alleles[0], p->alleles[1]);
 
+    // TODO: Free child
     free(p);
 }
 
