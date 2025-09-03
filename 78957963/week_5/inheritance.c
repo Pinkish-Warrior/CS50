@@ -5,10 +5,10 @@
 
 int main(void)
 {
-
+    free_family(p);
 }
 
-
+// Create a new individual with 'generations'
 person *create_family(int generations)
 {
     // TODO: Alocate memory for new person
