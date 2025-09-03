@@ -61,3 +61,20 @@ person *create_family(int generations)
 
     // print each family member and their alleles
 }
+
+char randon_allele()
+{
+    int r = rand() % 3;
+    if (r == 0)
+    {
+        return 'A';
+    }
+    else if (r == 1)
+    {
+        return 'B';
+    }
+    else
+    {
+        return 'O'
+    }
+}
