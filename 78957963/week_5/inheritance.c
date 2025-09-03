@@ -77,22 +77,21 @@ person *create_family(int generations)
 
     void print_family(person *p, int generation);
 
+}
+
+// Free 'p' and all ancestors of 'p'.
+void free_family(person *p)
+{
+    // TODO: Handle base case
 
 
-    // Free 'p' and all ancestors of 'p'.
-    void free_family(person *p)
-    {
-        // TODO: Handle base case
+    // TODO: Free perents recursively
 
 
-        // TODO: Free perents recursively
-
-
-        // TODO: Free child
-    }
+    // TODO: Free child
+}
 
     // print each family member and their alleles
-}
 
 char randon_allele()
 {
