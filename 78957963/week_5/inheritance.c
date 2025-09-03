@@ -135,7 +135,20 @@ char random_allele()
     {
         return 'A';
     }
-    else if (r == 1)
+    else if (r == 1)    void free_family(person *p)
+    {
+        if (p == NULL)
+        {
+            return;
+        }
+
+        free_family(p->parents[0]);
+        free_family(p->parents[1]);
+
+        // Optional: print before freeing (for debugging)
+        // printf("Freeing person with alleles %c%c\n", p->alleles[0], p->alleles[1]);
+        free(p);
+    }
     {
         return 'B';
     }
