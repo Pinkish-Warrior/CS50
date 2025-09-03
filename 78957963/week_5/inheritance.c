@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 
-// Each person has 2 parents
+// Each person has 2 parents - blueprint of a person
 typedef struct person
 {
     struct person *parents[2]; // each person has 2 parents
