@@ -111,15 +111,21 @@ void print_family(person *p, int generation)
 void free_family(person *p)
 {
     // TODO: Handle base case
-
+    if (p == NULL)
+    {
+        return;
+    }
 
     // TODO: Free perents recursively
-
+    free_family(p->parents[0]);
+    free_family(p->parents[1]);
 
     // TODO: Free child
-}
+    free(p);
 
     // print each family member and their alleles
+}
+
 
 char random_allele()
 {
