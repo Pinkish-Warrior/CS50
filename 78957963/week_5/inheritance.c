@@ -94,7 +94,7 @@ void free_family(person *p)
 
     // print each family member and their alleles
 
-char randon_allele()
+char random_allele()
 {
     int r = rand() % 3;
     if (r == 0)
