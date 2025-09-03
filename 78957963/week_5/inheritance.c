@@ -11,9 +11,13 @@ typedef struct person
     char alleles[2]; // each person has 2 alleles (A, B, or O)
  } person;
 
+// child → parents → grandparents.
 const int GENERATIONS = 3;
+
+// INDENT_LENGTH controls how far we indent text when printing each generation.
 const int INDENT_LENGTH = 4;
 
+// Declaring functions before we define them, so main() knows they exist.
 person *create_family(int generations);
 void print_family(person *p, int generation);
 void free_family(person *p);
