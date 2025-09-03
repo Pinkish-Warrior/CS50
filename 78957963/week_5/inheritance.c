@@ -1,9 +1,7 @@
-#include <cs50.h>
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
 #include <stdlib.h>
-
 
 
 // Each person has 2 parents
@@ -124,6 +122,9 @@ void free_family(person *p)
     free(p);
 
     // print each family member and their alleles
+    printf("Freeing person with alleles %c%c\n", p->alleles[0], p->alleles[1]);
+
+    free(p);
 }
 
 
