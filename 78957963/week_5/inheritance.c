@@ -158,4 +158,3 @@ char random_allele()
     }
 }
 
-
