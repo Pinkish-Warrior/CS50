@@ -7,8 +7,8 @@
 // Each person has 2 parents
 typedef struct person
 {
-    struct person *parents[2];
-    char alleles[2];
+    struct person *parents[2]; // each person has 2 parents
+    char alleles[2]; // each person has 2 alleles (A, B, or O)
  } person;
 
 const int GENERATIONS = 3;
