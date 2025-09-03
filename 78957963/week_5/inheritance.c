@@ -3,7 +3,6 @@
 #include <time.h>
 #include <stdlib.h>
 
-
 // Each person has 2 parents - blueprint of a person
 typedef struct person
 {
@@ -43,7 +42,7 @@ person *create_family(int generations)
 {
     // TODO: Alocate memory for new person
     person *new_person = malloc(sizeof(person));
-    if (new_person == NULL) // nothing to free 
+    if (new_person == NULL) // nothing to free
     {
         return NULL; // I can not return 1 as my create function returns a pointer not a number.
     }
