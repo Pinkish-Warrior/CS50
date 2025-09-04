@@ -99,9 +99,10 @@ This creates a **linear chain** of nodes.
 - c. Populate and insert the node at the beggining of the linked list
 - d. Return a pointer to the new head of the linked list.
 
-> we allways need to connect the new element inserted/created to the list before make it the starting point of the list.
+> We allways need to connect the new element inserted/created to the list before make it the starting point of the list.
 
 3. Delete:
 ```bash
   void destroy (sllnode* head);
 ```
+> We need to change the pointer to another element before deleting any element to prevent it of being orphanned 
