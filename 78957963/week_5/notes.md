@@ -1,6 +1,6 @@
 # Difference Between `person` (Family Tree) and `sllnode` (Singly Linked List)
 
-In C, both of these structures look similar at first glance because they use pointers, but they represent very **different data structures**. 
+In C, both of these structures look similar at first glance because they use pointers, but they represent very **different data structures**.
 
 ---
 
@@ -78,3 +78,9 @@ This creates a **linear chain** of nodes.
 
 - `person` → **branching** → a tree of family members.
 - `sllnode` → **chaining** → a linked list of nodes.
+
+### ✅ Searching through an linked list
+
+```bash
+  bool find *sllist
+```
