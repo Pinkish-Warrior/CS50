@@ -82,5 +82,5 @@ This creates a **linear chain** of nodes.
 ### ✅ Searching through an linked list
 
 ```bash
-  bool find *sllist
+  bool find (sllnode* head, VALUE val);
 ```
