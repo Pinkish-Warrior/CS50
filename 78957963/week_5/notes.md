@@ -84,4 +84,4 @@ This creates a **linear chain** of nodes.
 ```bash
   bool find (sllnode* head, VALUE val);
 ```
-// returning a true eo false value in accordance to the head an its value
+// This can be useful in many situations, such as checking if an element exists in a singly-linked list before performing certain operations.
