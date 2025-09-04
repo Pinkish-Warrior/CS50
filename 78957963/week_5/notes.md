@@ -79,9 +79,22 @@ This creates a **linear chain** of nodes.
 - `person` → **branching** → a tree of family members.
 - `sllnode` → **chaining** → a linked list of nodes.
 
-### ✅ Searching through an linked list:
+### ✅ Singly-Linked lists:
+
+1. Search:
 
 ```bash
   bool find (sllnode* head, VALUE val);
 ```
-// This can be useful in many situations, such as checking if an element exists in a singly-linked list before performing certain operations.
+
+```text
+note: This can be useful in many situations, such as checking if an element exists in a singly-linked list before  performing certain operations.
+```
+
+2. Insert:
+```bash
+  bool insert (sllnode* head, VALUE val);
+```
+
+3. Remove:
+
