@@ -96,4 +96,6 @@ This creates a **linear chain** of nodes.
 ```
 
 3. Remove:
-
+```bash
+  bool remove (sllnode* head, VALUE val);
+```
