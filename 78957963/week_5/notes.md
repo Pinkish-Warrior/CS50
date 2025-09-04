@@ -87,9 +87,8 @@ This creates a **linear chain** of nodes.
   bool find (sllnode* head, VALUE val);
 ```
 
-```text
-note: This can be useful in many situations, such as checking if an element exists in a singly-linked list before  performing certain operations.
-```
+> This can be useful in many situations, such as checking if an element exists in a singly-linked list before  performing certain operations.
+
 
 2. Insert:
 ```bash
