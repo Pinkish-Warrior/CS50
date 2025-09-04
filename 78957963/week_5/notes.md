@@ -99,6 +99,7 @@ This creates a **linear chain** of nodes.
 - c. Populate and insert the node at the beggining of the linked list
 - d. Return a pointer to the new head of the linked list.
 
+> we allways need to 
 
 3. Remove:
 ```bash
