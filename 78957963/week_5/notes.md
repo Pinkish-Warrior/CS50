@@ -79,8 +79,9 @@ This creates a **linear chain** of nodes.
 - `person` → **branching** → a tree of family members.
 - `sllnode` → **chaining** → a linked list of nodes.
 
-### ✅ Searching through an linked list
+### ✅ Searching through an linked list:
 
 ```bash
   bool find (sllnode* head, VALUE val);
 ```
+// returning a treu eo false value in accordance 
