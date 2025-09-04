@@ -89,11 +89,16 @@ This creates a **linear chain** of nodes.
 
 > This can be useful in many situations, such as checking if an element exists in a singly-linked list before  performing certain operations.
 
-
 2. Insert:
 ```bash
   bool insert (sllnode* head, VALUE val);
 ```
+> Steps involved:
+- a. Dynamically allocate space for new sllnode.
+- b. Check to make sure we didn't run out of memory
+- c. Populate and insert the node at the beggining of the linked list
+- d. Return a pointer to the new head of the linked list.
+
 
 3. Remove:
 ```bash
