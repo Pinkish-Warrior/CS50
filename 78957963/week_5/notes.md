@@ -84,4 +84,4 @@ This creates a **linear chain** of nodes.
 ```bash
   bool find (sllnode* head, VALUE val);
 ```
-// returning a treu eo false value in accordance 
+// returning a true eo false value in accordance to the head an its value
