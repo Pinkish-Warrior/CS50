@@ -2,6 +2,7 @@
 #include <cs50.h>
 #include <stdlib.h>
 
+// Always bind the * to the variable name, not the type
 typedef struct node
 {
     int number;

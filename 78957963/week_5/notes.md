@@ -42,7 +42,7 @@ This creates a **tree structure** (branching upwards to parents).
 typedef struct sllist
 {
     VALUE val;             // some data (like int, char, etc.)
-    struct sllist* next;   // pointer to the *next* node
+    struct sllist *next;   // pointer to the *next* node
 } sllnode;
 ```
 
@@ -84,25 +84,117 @@ This creates a **linear chain** of nodes.
 1. Search:
 
 ```bash
-  bool find (sllnode* head, VALUE val);
+  bool find (sllnode *head, VALUE val);
 ```
-
 > This can be useful in many situations, such as checking if an element exists in a singly-linked list before  performing certain operations.
 
 2. Insert:
 ```bash
-  bool insert (sllnode* head, VALUE val);
+  sllnode *insert(sllnode *head, VALUE val);
 ```
+> We allways need to connect the new element inserted/created to the list before make it the starting point of the list.
+
+3. Delete:
+```bash
+  void destroy (sllnode *head);
+```
+> We need to change the pointer to another element before deleting any element to prevent it of being orphanned
+
 > Steps involved:
 - a. Dynamically allocate space for new sllnode.
 - b. Check to make sure we didn't run out of memory
 - c. Populate and insert the node at the beggining of the linked list
 - d. Return a pointer to the new head of the linked list.
 
+### ✅ Double-Linked lists:
+
+```c
+typedef struct dllist
+{
+    VALUE val; // some data (like int, char, etc.)
+    struct dllist *prev;
+    struct dllist *next;   // pointer to the *next* node
+} dllnode;
+```
+> We are focusing on the Insert and Delete for a double linked list.
+
+2. Insert:
+```bash
+  dllnode *insert(dllnode *head, VALUE val);
+```
 > We allways need to connect the new element inserted/created to the list before make it the starting point of the list.
 
 3. Delete:
 ```bash
-  void destroy (sllnode* head);
+  void delete (dllnode *target);
 ```
-> We need to change the pointer to another element before deleting any element to prevent it of being orphanned 
+
+### Stacks(Data Structure):
+
+- a. Array-based implementation
+```c
+  typedef struct _stack
+  {
+    VALUE array[CAPACITY];
+    int top
+  } stack;
+```
+
+```c
+  stack s;
+  s.top = 0;
+  push(&s, 28);
+
+  void push(stack *s, VALUE data);
+```
+```c
+  int x = pop(&s);
+
+  VALUE pop(stack *s);
+
+```
+
+- b. linked-list implementation (FILO)
+
+```c
+  typedef struct _stack
+  {
+    VALUE array[CAPACITY];
+    int top
+  } stack;
+```
+
+```c
+  typedef struct _stack
+  {
+    VALUE val;
+    struct _stack *next;
+  } stack;
+```
+### Queues:
+
+FIFO
+Enqueue - add elements to the queue
+Dequeue - remove elements to the queue
+
+a. array
+```c
+typedef struct _queue
+{
+  VALUE array[CAPACITY];
+  int front;
+  int size;
+} queue;
+```
+enqueue(&q, 28);
+
+int x = dequeue(&q);
+
+```c
+typedef struct _queue
+{
+  VALUE val;
+  struct _queue *prev;
+  struct _queue *next;
+} queue;
+```

@@ -1,6 +1,9 @@
 
-type struct node
+type struct _trie
 {
-    struct node *children[26];
-    char *number;
-} node;
+    char university[20];
+    struct _trie* paths[10];
+
+} trie;
+
+
